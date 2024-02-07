@@ -1,0 +1,78 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #15297c;
+}
+
+.nav .nav-link.active{
+    background-color: #fff;
+    color: #15297c;
+}
+
+.nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+section #carousel-page img{
+    height: 600px;
+}
+
+.section-title{
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.section-title span, #color{
+    color: #15297c;
+}
+
+#sobre-nos, #trajes{
+    background-color: #d8e5f0;
+}
+
+#trajes button{
+    color: #15297c;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.btn, .btn:hover, footer{
+    background-color: #15297c;
+    color: #fff;
+}
+
+.image-container {
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.image-container {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+    section #carousel-page img{
+        height: 280px;
+    }
+}
